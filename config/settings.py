@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     # Local
     'accounts',  # new
     'pages',
+    'books',
 ]
 # django-crispy-forms
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
@@ -149,4 +150,3 @@ ACCOUNT_USERNAME_REQUIRED = False  # new
 ACCOUNT_AUTHENTICATION_METHOD = 'email'  # new
 ACCOUNT_EMAIL_REQUIRED = True  # new
 ACCOUNT_UNIQUE_EMAIL = True  # new
-
